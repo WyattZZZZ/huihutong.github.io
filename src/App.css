@@ -1,0 +1,96 @@
+/* App.css */
+
+/* Body and general container styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.App {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+}
+
+/* Header style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button style */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Tips Text Style */
+p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* QR Code Section */
+div.qr-code-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Scaling buttons */
+button:focus {
+  outline: none;
+}
+button:active {
+  background-color: #003366;
+}
+
+/* Add spacing for zoom controls */
+div.zoom-buttons {
+  margin-top: 20px;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

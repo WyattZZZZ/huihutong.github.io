@@ -1,0 +1,100 @@
+/* index.css */
+
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font for the entire page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text for readability */
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the root div where the React app will be mounted */
+#root {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  background-color: #fff; /* White background for the app */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style for headings */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for paragraphs and general text */
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003366;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* QR code container */
+.qr-code-container {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Zoom buttons container */
+.zoom-buttons {
+  margin-top: 20px;
+}
+
+/* Loading spinner for QR code */
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
