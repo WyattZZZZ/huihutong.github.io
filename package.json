@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A React application for generating and displaying QR codes",
   "main": "src/index.tsx",
-  "homepage": "https://huihutong.github.io",
+  "homepage": "https://wyattzzzz.github.io/huihutong.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
